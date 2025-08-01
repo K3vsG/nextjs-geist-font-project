@@ -65,7 +65,7 @@ export const QRGenerator = ({ visit }: QRGeneratorProps) => {
               className="w-64 h-64 mx-auto"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = "https://placehold.co/256x256?text=Codigo+QR+generado+para+visita+residencial+con+datos+completos+incluyendo+residencia+departamento+y+fecha+de+vencimiento";
+                target.src = "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/aa40c98f-db27-419a-a2fd-51becb735dc6.png";
               }}
             />
           ) : (
